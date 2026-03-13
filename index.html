@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andy Hinsley</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f9f7f4;
+      color: #1a1a1a;
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid #d0ccc6;
+      padding-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-family: 'Lora', serif;
+      font-weight: 600;
+      font-size: 2rem;
+      letter-spacing: -0.01em;
+      color: #111;
+    }
+
+    header p {
+      margin-top: 0.3rem;
+      font-size: 0.9rem;
+      color: #888;
+      letter-spacing: 0.02em;
+    }
+
+    /* ── Section headings ── */
+    h2 {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 1rem;
+      margin-top: 2.5rem;
+    }
+
+    /* ── Intro text ── */
+    .intro {
+      font-size: 0.97rem;
+      color: #333;
+    }
+
+    /* ── App list ── */
+    ul.apps {
+      list-style: none;
+      margin-top: 0.5rem;
+    }
+
+    ul.apps li {
+      border-top: 1px solid #e2deda;
+      padding: 0.75rem 0;
+    }
+
+    ul.apps li:last-child {
+      border-bottom: 1px solid #e2deda;
+    }
+
+    ul.apps a {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: #1a4a7a;
+      font-size: 0.97rem;
+    }
+
+    ul.apps a:hover .app-name {
+      text-decoration: underline;
+    }
+
+    .app-name {
+      font-weight: 600;
+    }
+
+    .app-desc {
+      color: #666;
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #d0ccc6;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Andy Hinsley</h1>
+      <p>andyhinsley.github.io</p>
+    </header>
+
+    <p class="intro">
+      A collection of apps I've built.
+    </p>
+
+    <h2>Apps</h2>
+
+    <ul class="apps">
+
+      <!-- ✏️ Edit href, app-name, and app-desc for each app -->
+
+      <li>
+        <a href="https://andyhinsley.github.io/app-one">
+          <span class="app-name">Tide Tracker</span>
+          <span class="app-desc">— local tide times at a glance</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://andyhinsley.github.io/app-two">
+          <span class="app-name">Stack Shuffler</span>
+          <span class="app-desc">— randomise a list, make a decision</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://andyhinsley.github.io/app-three">
+          <span class="app-name">Lens Log</span>
+          <span class="app-desc">— track a camera lens collection</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://andyhinsley.github.io/app-four">
+          <span class="app-name">Quiet Timer</span>
+          <span class="app-desc">— a simple, distraction-free countdown</span>
+        </a>
+      </li>
+
+      <!-- ✏️ Copy a <li> block above to add more apps -->
+
+    </ul>
+
+    <footer>"I wish the ring had never come to me. I wish none of this had happened." "So do all who live to see such times. But that is not for them to decide. All we have to decide is what to do with the time that is given to us."</footer>
+
+  </div>
+</body>
+</html>
